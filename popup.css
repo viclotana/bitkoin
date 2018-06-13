@@ -1,0 +1,34 @@
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #F1FAEE;
+  width: 150px;
+  padding: 10px;
+  font-weight: 300;
+  text-align: center;
+}
+.button {
+  text-transform: lowercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+  padding: 1px 0;
+  width: 90%;
+  background: #3DC687;
+  border: 1px solid #3DC687;
+  color: #FFFFFF;
+  transition: all 0.1s;
+}
+
+#price {
+  color: #3DC687;
+  border: 1px solid #3DC687;
+  background: #FFFFFF;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 0.8px;
+  padding: 1px 0;
+  width: 90%;
+}
+
+.button:hover, .button:active {
+  background: #277D4E;
+}
